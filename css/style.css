@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background 1s, color 0.3s;
+}
+
+header, footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    background: #fff;
+    color: #222;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dark-mode {
+    background: #111;
+    color: #fff;
+}
+
+.dark-mode button {
+    background: #444;
+    color: #fff;
+}
